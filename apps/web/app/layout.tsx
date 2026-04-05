@@ -23,7 +23,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="bg-surface text-gray-900 antialiased font-sans">{children}</body>
+      <body className="bg-slate-50 text-gray-900 antialiased font-sans">{children}</body>
     </html>
   );
 }
