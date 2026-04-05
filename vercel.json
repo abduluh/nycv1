@@ -1,6 +1,5 @@
 {
-  "buildCommand": "pnpm run build --filter=@nyc-search/web",
+  "buildCommand": "cd apps/web && pnpm run build",
   "installCommand": "pnpm install",
-  "framework": "nextjs",
-  "rootDirectory": "apps/web"
+  "framework": "nextjs"
 }

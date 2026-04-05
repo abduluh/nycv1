@@ -1,1 +1,0 @@
-self.__REACT_LOADABLE_MANIFEST='{"app\\\\page.tsx -> ../components/MapView":{"id":3693,"files":["static/chunks/693.585a577dd01199d2.js"]},"components\\\\MapView.tsx -> leaflet":{"id":6753,"files":["static/chunks/fe69a73d.965672dbb6e1bf29.js"]}}';
