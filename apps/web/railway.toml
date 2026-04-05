@@ -1,0 +1,16 @@
+# Railway Configuration for Web App
+[build]
+builder = "NIXPACKS"
+
+[deploy]
+startCommand = "cd apps/web && pnpm start"
+healthcheckPath = "/"
+healthcheckTimeout = 300
+restartPolicyType = "ON_FAILURE"
+
+[env]
+NODE_ENV = "production"
+PORT = "3000"
+
+# Add this in Railway dashboard:
+# NEXT_PUBLIC_API_URL=https://your-api-service.railway.app
